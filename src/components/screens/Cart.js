@@ -19,7 +19,7 @@ function Cart() {
     <>
       <div style={{ display: "grid", placeItems: "center" }}>
         {cartProducts.length !== 0 && (
-          <span className={classes.bill}>Total Bill : {totalBill}</span>
+          <span className={classes.bill}>Total Bill : &#8377;{totalBill}</span>
         )}
       </div>
       <section className={classes.products}>
